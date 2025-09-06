@@ -5,31 +5,10 @@
   |============================
 */
 /* Common styles */
-
+@import url('./base.css');
+@import url('./back-link.css');
+@import url('./container.css');
 @import url('./2-form.css');
 @import url('./1-gallery.css');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul,
-ol {
-    list-style-type: none;
-}
-
-img {
-    display: block;
-}
-
-.menu-list {
-    margin-top: 50px;
-    margin-left: 50px;
-}

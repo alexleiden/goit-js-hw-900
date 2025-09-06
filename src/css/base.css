@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+.menu-list {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  gap: 20 px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.menu-list-item {
+  font-size: 46px;
+
+}
+
+.menu-list-item {
+  display: inline-block;     /* чтобы работала трансформация */
+  transition: transform 0.2s ease; /* плавность */
+}
+
+.menu-list-item:hover {
+  transform: scale(1.1);     /* лёгкое увеличение */
+  color: blueviolet;
+}
+
+.main-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
